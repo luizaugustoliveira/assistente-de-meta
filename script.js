@@ -35,8 +35,7 @@ const perguntarAI = async (question, game, apiKey) => {
     - Não precisa fazer nenhuma saudação ou despedida, apenas responda o que o usuário está querendo.
 
     // ## Exemplo de resposta
-    // pergunta do usuário: Melhor build rengar jungle
-    // resposta: A build mais atual é: \n\n **Itens:**\n\n coloque os itens aqui.\n\n**Runas:**\n\nexemplo de runas\n\n
+   
 
     ---
     Aqui está a pergunta do usuário: ${question}
