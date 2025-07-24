@@ -1,126 +1,36 @@
-# HTML
-- HypertText
-    - Textos puros, livros, revistas, jornais;
-    - Links: acessar outros documentos;
-    - Imagens, vídeos, áudios;
-- Markup
-    - Marcação
-    - Tags: <a> Link </a>
-    - Atributos: <a href="https://rocketseat.com.br">
-    - Globais: id, class, ...
-- Language
-    - Linguagem
-    - Sintaxe: maneira de escrever
+# Assistente de Meta para Jogos
 
-# HTTP
-- HyperText
-- Transfer
-    - Transferência
-- Protocol
-    - Protocolo
-    - Conjunto de regras
-- Methods HTTP (verbos): Get, Post, Patch/Put, Delete
-- Headers (cabeçalhos): Instruções/Informações extras para cada chamada
+Projeto desenvolvido com foco em integração de IA (Gemini) para responder dúvidas sobre estratégias de jogos populares.
 
-# URL
-- Uniform
-    - Uniforme
-- Resource
-    - Recurso
-- Locator
-    - Localizador
-Encontrar um recurso (html, css, js, pdf, jpg, mp4, mpr, ...)
-Endereço
+## Demonstração
 
-# IP
-- Internet
-  - Rede mundial de computadores
-- Protocol
-  - Conjunto de regras
-Endereço do computador
-rocketseat.com.br (domínio)
-123.32.1.23 (ip)
+https://luizaugustoliveira.github.io/assistente-de-meta/
 
-# DNS
-- Domain
-  - Domínio
-- Name
-  - Nome
-- Server
-  - Servidor
+![Init](./nlw1/assets/init.png)
+![Demo](./nlw1/assets/demo.png)
 
-# CSS
+---
 
-- Cascading
-  - Cascata
-  - Regras das escritas
-  - Hierarquia
-  - Especificidade
-- Style
-  - Estilo
-- Sheet
-  - Folha
+## ✨ Funcionalidades
 
-De um arquivo que terá na sua sintaxe, declarações, propriedades e valores.
-A partir disso, o HTML é impactado visualmente.
+- Pergunte sobre estratégias, builds e dicas para jogos como Mario, Donkey Kong e Sonic
+- Respostas geradas por IA (Gemini)
+- Interface responsiva
+- Conversão automática de respostas em Markdown para HTML
+- Validação de formulário e feedback visual
 
-- declaração
-- seletor
-- propriedade e valor
+---
 
-# JS
-- Linguagem de programação
-- Browsers
-- Input -> Process -> Output
-- Variáveis
-- Function
-  - Agrupamento e reuso de código
-  - Sequencia lógica
-  - Saída
-- Gemini (IA): esperar uma resposta
-- Mexer no meu navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: sequencia de passos lógica, de maneira ordenada, a fim de chegar a alguma conclusão (limitada)
-- Lógica (Pensamento computacional)
-  - Abstração
-  - Decomposição
-  - Algoritmo
-  - Reconhecimento de padrão
-- Tipos de dados
-  - Number (números)
-  - String (textos) (" ",  ' ',  ` `)
-  - Boolean: true | false
-  - Objects
-  - ...
+## 🛠️ Tecnologias Utilizadas
 
-# DOM
-- Document
-- Object
-- Model
+- HTML5, CSS3, JavaScript (ES6+)
+- [Showdown.js](https://github.com/showdownjs/showdown) para Markdown
+- Google Gemini API
 
-# API
-- Application
-- Programming
-- Interface
-- JSON: JavaScript Object Notation
+---
 
-# CDN
-- Content
-- Delivery
-- Network
+## 📦 Como rodar localmente
 
-# LLM
-- Large
-- Language
-- Model
-- Gemini, OpenAI (chatGPT), Anthropic (Claude) ...
-
-# Agentes AI
-- Tools (ferramentas): permitem uso de código, ou apps, ou qualquer informação extra.
-- Melhor contexto
-
-# Engenharia de prompt
-- One shot: uma única pergunta sem muito contexto
-- Few shot: é apresentado exemplos do que se espera
-- Chain of Thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/luizaugustoliveira/assistente-de-meta.git
