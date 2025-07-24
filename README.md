@@ -6,8 +6,9 @@ Projeto desenvolvido com foco em integração de IA (Gemini) para responder dúv
 
 https://luizaugustoliveira.github.io/assistente-de-meta/
 
-![Init](./assistente-de-meta/assets/init.png)
-![Demo](./assistente-de-meta/assets/demo.png)
+<img width="623" height="373" alt="init" src="https://github.com/user-attachments/assets/ff6ab301-27a5-4d81-81c1-a0b46590137a" />
+
+<img width="1839" height="1003" alt="demo" src="https://github.com/user-attachments/assets/a91694b6-56e2-428e-b644-1a1218d2ccf1" />
 
 ---
 
