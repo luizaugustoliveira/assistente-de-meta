@@ -6,12 +6,12 @@ Projeto desenvolvido com foco em integração de IA (Gemini) para responder dúv
 
 https://luizaugustoliveira.github.io/assistente-de-meta/
 
-![Init](./nlw1/assets/init.png)
-![Demo](./nlw1/assets/demo.png)
+![Init](./assistente-de-meta/assets/init.png)
+![Demo](./assistente-de-meta/assets/demo.png)
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Pergunte sobre estratégias, builds e dicas para jogos como Mario, Donkey Kong e Sonic
 - Respostas geradas por IA (Gemini)
@@ -21,7 +21,7 @@ https://luizaugustoliveira.github.io/assistente-de-meta/
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5, CSS3, JavaScript (ES6+)
 - [Showdown.js](https://github.com/showdownjs/showdown) para Markdown
@@ -29,7 +29,7 @@ https://luizaugustoliveira.github.io/assistente-de-meta/
 
 ---
 
-## 📦 Como rodar localmente
+## Como rodar localmente
 
 1. Clone o repositório:
    ```bash
