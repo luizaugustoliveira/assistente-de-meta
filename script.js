@@ -11,8 +11,6 @@ const markdownToHTML = (text) => {
 };
 
 const perguntarAI = async (question, game, apiKey) => {
-  // const model = "gemini-2.0-flash"
-  // const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`
   const model = "gemini-2.5-flash";
   const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
   const pergunta = `
@@ -30,13 +28,11 @@ const perguntarAI = async (question, game, apiKey) => {
     - Nunca responsda itens que vc não tenha certeza de que existe no patch atual.
 
     ## Resposta
-    - Economize na resposta, seja direto e responda no máximo 500 caracteres
+    - Seja direto e responda no máximo 1000 caracteres
     - Responda em markdown
     - Não precisa fazer nenhuma saudação ou despedida, apenas responda o que o usuário está querendo.
 
     // ## Exemplo de resposta
-   
-
     ---
     Aqui está a pergunta do usuário: ${question}
   `;
