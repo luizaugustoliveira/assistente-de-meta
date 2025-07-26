@@ -1,6 +1,6 @@
 # Assistente de Meta para Jogos
 
-Projeto desenvolvido com foco em integração de IA (Gemini) para responder dúvidas sobre estratégias de jogos populares.
+Projeto desenvolvido com foco em integração de IA (Gemini) para responder dúvidas sobre estratégias de jogos clássicos do Super Nintendo e da SEGA.
 
 ## Demonstração
 
