@@ -25,14 +25,13 @@ const perguntarAI = async (question, game, apiKey) => {
     - Se a pergunta não está relacionada ao jogo, responda com 'Essa pergunta não está relacionada ao jogo'
     - Considere a data atual ${new Date().toLocaleDateString()}
     - Faça pesquisas atualizadas sobre o patch atual, baseado na data atual, para dar uma resposta coerente.
-    - Nunca responsda itens que vc não tenha certeza de que existe no patch atual.
+    - Nunca responda itens que você não tenha certeza de que existe no patch atual.
 
     ## Resposta
-    - Seja direto e responda no máximo 750 caracteres
+    - Seja direto e responda no máximo 500 caracteres
     - Responda em markdown
     - Não precisa fazer nenhuma saudação ou despedida, apenas responda o que o usuário está querendo.
-
-    // ## Exemplo de resposta
+    
     ---
     Aqui está a pergunta do usuário: ${question}
   `;
