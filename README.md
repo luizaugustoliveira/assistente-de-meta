@@ -39,3 +39,11 @@ https://luizaugustoliveira.github.io/assistente-de-meta/
    git clone https://github.com/luizaugustoliveira/assistente-de-meta.git
 
 2. Utilizar a extensão LiveServer do Visual Studio Code
+
+3. Criar projeto no google cloud
+   ```bash
+   https://cloud.google.com/?hl=pt-BR
+
+4. Receber chave da API do Gemini
+   ```bash
+   https://ai.google.dev/gemini-api/docs?hl=pt-br&authuser=1
